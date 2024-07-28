@@ -5,7 +5,7 @@ const AppContext = createContext();
 const AppProvider = ({ children }) => {
   const [count, setCount] = useState(0);
 
-const  apiurl=`https://user-emp-auth-server.vercel.app/`
+const  apiurl=`http://localhost:5000/api`
 
 
   return (
